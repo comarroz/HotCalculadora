@@ -1,0 +1,11 @@
+C:\Users\anderson.asantos55\source\repos\BotoesCalculadora\BotoesCalculadora\bin\Debug\BotoesCalculadora.exe.config
+C:\Users\anderson.asantos55\source\repos\BotoesCalculadora\BotoesCalculadora\bin\Debug\BotoesCalculadora.exe
+C:\Users\anderson.asantos55\source\repos\BotoesCalculadora\BotoesCalculadora\bin\Debug\BotoesCalculadora.pdb
+C:\Users\anderson.asantos55\source\repos\BotoesCalculadora\BotoesCalculadora\obj\Debug\BotoesCalculadora.csproj.AssemblyReference.cache
+C:\Users\anderson.asantos55\source\repos\BotoesCalculadora\BotoesCalculadora\obj\Debug\BotoesCalculadora.csproj.SuggestedBindingRedirects.cache
+C:\Users\anderson.asantos55\source\repos\BotoesCalculadora\BotoesCalculadora\obj\Debug\BotoesCalculadora.HotCalculadora.resources
+C:\Users\anderson.asantos55\source\repos\BotoesCalculadora\BotoesCalculadora\obj\Debug\BotoesCalculadora.Properties.Resources.resources
+C:\Users\anderson.asantos55\source\repos\BotoesCalculadora\BotoesCalculadora\obj\Debug\BotoesCalculadora.csproj.GenerateResource.cache
+C:\Users\anderson.asantos55\source\repos\BotoesCalculadora\BotoesCalculadora\obj\Debug\BotoesCalculadora.csproj.CoreCompileInputs.cache
+C:\Users\anderson.asantos55\source\repos\BotoesCalculadora\BotoesCalculadora\obj\Debug\BotoesCalculadora.exe
+C:\Users\anderson.asantos55\source\repos\BotoesCalculadora\BotoesCalculadora\obj\Debug\BotoesCalculadora.pdb
