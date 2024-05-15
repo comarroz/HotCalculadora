@@ -34,7 +34,6 @@
             this.Limpar = new System.Windows.Forms.Button();
             this.Mais = new System.Windows.Forms.Button();
             this.Multiplicar = new System.Windows.Forms.Button();
-            this.Divisao = new System.Windows.Forms.Button();
             this.Igual = new System.Windows.Forms.Button();
             this.Dois = new System.Windows.Forms.Button();
             this.Um = new System.Windows.Forms.Button();
@@ -46,6 +45,7 @@
             this.Oito = new System.Windows.Forms.Button();
             this.Sete = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.Divisão = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // Menos
@@ -102,17 +102,6 @@
             this.Multiplicar.UseVisualStyleBackColor = true;
             this.Multiplicar.Click += new System.EventHandler(this.Multiplicar_Click);
             // 
-            // Divisao
-            // 
-            this.Divisao.Font = new System.Drawing.Font("Cooper Black", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Divisao.Location = new System.Drawing.Point(417, 226);
-            this.Divisao.Name = "Divisao";
-            this.Divisao.Size = new System.Drawing.Size(93, 47);
-            this.Divisao.TabIndex = 5;
-            this.Divisao.Text = "/";
-            this.Divisao.UseVisualStyleBackColor = true;
-            this.Divisao.Click += new System.EventHandler(this.button5_Click);
-            // 
             // Igual
             // 
             this.Igual.Font = new System.Drawing.Font("AIGDT", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(2)));
@@ -133,6 +122,7 @@
             this.Dois.TabIndex = 7;
             this.Dois.Text = "2";
             this.Dois.UseVisualStyleBackColor = true;
+            this.Dois.Click += new System.EventHandler(this.Dois_Click);
             // 
             // Um
             // 
@@ -154,6 +144,7 @@
             this.Tres.TabIndex = 9;
             this.Tres.Text = "3";
             this.Tres.UseVisualStyleBackColor = true;
+            this.Tres.Click += new System.EventHandler(this.Tres_Click);
             // 
             // Seis
             // 
@@ -186,6 +177,7 @@
             this.Quatro.TabIndex = 12;
             this.Quatro.Text = "4";
             this.Quatro.UseVisualStyleBackColor = true;
+            this.Quatro.Click += new System.EventHandler(this.Quatro_Click);
             // 
             // Novo
             // 
@@ -231,6 +223,17 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // Divisão
+            // 
+            this.Divisão.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Divisão.Location = new System.Drawing.Point(419, 232);
+            this.Divisão.Name = "Divisão";
+            this.Divisão.Size = new System.Drawing.Size(91, 48);
+            this.Divisão.TabIndex = 17;
+            this.Divisão.Text = "/";
+            this.Divisão.UseVisualStyleBackColor = true;
+            this.Divisão.Click += new System.EventHandler(this.Divisão_Click);
+            // 
             // HotCalculadora
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
@@ -238,6 +241,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::BotoesCalculadora.Properties.Resources.furious_hot_wheels_by_algorithmiccreative_dg2i2fd_fullview;
             this.ClientSize = new System.Drawing.Size(710, 448);
+            this.Controls.Add(this.Divisão);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.Sete);
             this.Controls.Add(this.Oito);
@@ -249,7 +253,6 @@
             this.Controls.Add(this.Um);
             this.Controls.Add(this.Dois);
             this.Controls.Add(this.Igual);
-            this.Controls.Add(this.Divisao);
             this.Controls.Add(this.Multiplicar);
             this.Controls.Add(this.Mais);
             this.Controls.Add(this.Limpar);
@@ -273,7 +276,6 @@
         private System.Windows.Forms.Button Limpar;
         private System.Windows.Forms.Button Mais;
         private System.Windows.Forms.Button Multiplicar;
-        private System.Windows.Forms.Button Divisao;
         private System.Windows.Forms.Button Igual;
         private System.Windows.Forms.Button Dois;
         private System.Windows.Forms.Button Um;
@@ -285,6 +287,7 @@
         private System.Windows.Forms.Button Oito;
         private System.Windows.Forms.Button Sete;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Divisão;
     }
 }
 
